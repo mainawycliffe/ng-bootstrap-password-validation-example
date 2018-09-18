@@ -26,31 +26,31 @@
               <i class="material-icons">{{ frmSignup.controls['password'].hasError('required') ||
                 frmSignup.controls['password'].hasError('minlength') ? 'cancel' :
                 'check_circle' }}</i>
-              Must be atleast 8 characters!
+              Must be at least 8 characters!
             </label>
             <label class="col" [ngClass]="frmSignup.controls['password'].hasError('required') || frmSignup.controls['password'].hasError('hasNumber')  ? 'text-danger' : 'text-success'">
               <i class="material-icons">{{ frmSignup.controls['password'].hasError('required') ||
                 frmSignup.controls['password'].hasError('hasNumber') ? 'cancel' :
                 'check_circle' }}</i>
-              Must contain atleast 1 number!
+              Must contain at least 1 number!
             </label>
             <label class="col" [ngClass]="frmSignup.controls['password'].hasError('required') || frmSignup.controls['password'].hasError('hasCapitalCase')  ? 'text-danger' : 'text-success'">
               <i class="material-icons">{{ frmSignup.controls['password'].hasError('required') ||
                 frmSignup.controls['password'].hasError('hasCapitalCase') ? 'cancel' :
                 'check_circle' }}</i>
-              Must contain atleast 1 in Capital Case!
+              Must contain at least 1 in Capital Case!
             </label>
             <label class="col" [ngClass]="frmSignup.controls['password'].hasError('required') || frmSignup.controls['password'].hasError('hasSmallCase')  ? 'text-danger' : 'text-success'">
               <i class="material-icons">{{ frmSignup.controls['password'].hasError('required') ||
                 frmSignup.controls['password'].hasError('hasSmallCase') ? 'cancel' :
                 'check_circle' }}</i>
-              Must contain atleast 1 Letter in Small Case!
+              Must contain at least 1 Letter in Small Case!
             </label>
             <label class="col" [ngClass]="frmSignup.controls['password'].hasError('required') || frmSignup.controls['password'].hasError('hasSpecialCharacters') ? 'text-danger' : 'text-success'">
               <i class="material-icons">{{ frmSignup.controls['password'].hasError('required') ||
                 frmSignup.controls['password'].hasError('hasSpecialCharacters') ? 'cancel' :
                 'check_circle' }}</i>
-              Must contain atleast 1 Special Character!
+              Must contain at least 1 Special Character!
             </label>
           </div>
           <div class="form-group">
